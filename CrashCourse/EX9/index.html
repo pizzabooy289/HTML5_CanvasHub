@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Canvas Tutorial</title>
+        
+        <!-- Standard Libraries -->
+        <script src="libraries/js/jquery-3.6.0.min.js"></script>
+
+        <link href="libraries/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="libraries/js/bootstrap.bundle.min.js"></script>
+
+        <!-- My Libraries -->
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+
+    </head>
+
+    <body>
+        <h1>Canvas Crash Course</h1>
+
+        <canvas id="canvas" width="600" height="200"></canvas>
+
+        <br/>
+        <br/>
+
+        <button id="clear" type="button" class="btn btn-primary">Clear</button>
+
+        <br/>
+        <br/>
+
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <h3>Quadratic Bézier Curve</h3>
+
+                <div class="form-group">
+                    <label for="axisXstartPoint">x-axis start point</label>
+                    <input type="text" class="form-control" id="axisXstartPoint" >
+                </div>
+    
+                <div class="form-group">
+                    <label for="axisYstartPoint">y-axis start point</label>
+                    <input type="text" class="form-control" id="axisYstartPoint" >
+                </div>
+    
+                <br/>
+                <br/>
+    
+                <div class="form-group">
+                    <label for="axisXcontrolPoint">x-axis control point</label>
+                    <input type="text" class="form-control" id="axisXcontrolPoint" >
+                </div>
+    
+                <div class="form-group">
+                    <label for="axisYcontrolPoint">y-axis control point</label>
+                    <input type="text" class="form-control" id="axisYcontrolPoint" >
+                </div>
+    
+                <div class="form-group">
+                    <label for="axisXpoint">x-axis point</label>
+                    <input type="text" class="form-control" id="axisXpoint" >
+                </div>
+    
+                <div class="form-group">
+                    <label for="axisYpoint">y-axis point</label>
+                    <input type="text" class="form-control" id="axisYpoint" >
+                </div>
+    
+                <div class="btn-group">
+                    <button id="submit_curve" type="button" class="btn btn-primary">Submit</button>
+                    <button id="example_curve" type="button" class="btn btn-primary">Example</button>
+                </div>
+              </div>
+              <div class="col">
+                <h3>Rectangle</h3>
+
+                <div class="form-group">
+                  <label for="axisX">x-axis point</label>
+                  <input type="text" class="form-control" id="axisX" >
+                </div>
+      
+                <div class="form-group">
+                  <label for="axisY">y-axis point</label>
+                  <input type="text" class="form-control" id="axisY" >
+                </div>
+    
+                <div class="form-group">
+                    <label for="width">Width</label>
+                    <input type="text" class="form-control" id="width" >
+                </div>
+        
+                <div class="form-group">
+                    <label for="height">Height</label>
+                    <input type="text" class="form-control" id="height" >
+                </div>
+    
+                <div class="btn-group">
+                    <button id="submit_rec" type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+    </body>
+
+</html>
